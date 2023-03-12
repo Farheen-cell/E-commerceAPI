@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Farheen-cel/ecom/seeds"
 	"github.com/Farheen-cell/ecom/controllers"
 	"github.com/Farheen-cell/ecom/infrastructure"
 	"github.com/Farheen-cell/ecom/middlewares"
 	"github.com/Farheen-cell/ecom/models"
+	"github.com/Farheen-cell/ecom/seeds"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
