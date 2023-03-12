@@ -101,4 +101,5 @@ func DeleteProduct(condition interface{}) error {
 func FetchProductsIdNameAndPrice(productIds []uint) (products []models.Product, err error) {
 	database := infrastructure.GetDb()
 	err = database.Select([]string{"id", "name", "slug", "price"}).Find(&products, productIds).Error
-	retur
+	return products, err
+}

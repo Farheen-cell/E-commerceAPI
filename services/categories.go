@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/Farheen-cel/ecom/infrastructure"
+	"github.com/Farheen-cell/ecom/infrastructure"
 	"github.com/Farheen-cell/ecom/models"
 )
 
